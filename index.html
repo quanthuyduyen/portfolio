@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header class="padding-all">
+        <p>QUAN THUY DUYEN</p>
+        <section class="navigation">
+            <a href="index.html">About me</a>
+            <a href="#select-work">Case Studies</a>
+        </section>
+        <a class="header-mail" href="mailto:quanthuyduyen@gmail.com">quanthuyduyen@gmail.com</a>
+    </header>
+    <div class="intro">
+        <section>
+            <p class="about">Hi, I'm Thuy Duyen, a <span>UX/UI Designer</span> passionate about creating clean system interfaces for user experience.</p>
+            <div class="checkout">
+                <a href="">Check out my works</a>
+                <svg width="13" height="17" viewBox="0 0 13 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.7118 10.6441L6.35588 16L1 10.6441" stroke="#292D32" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6.35596 1V15.8501" stroke="#292D32" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> 
+            </div>
+        </section>
+        <img src="pictures/avt.png" alt="">
+    </div>
+    <div class="work-holder"   id="select-work">
+        <section class="works">
+            <p>Selected Works</p>
+            <ul class="reset-list   work-vertical">
+                <li><a href="https://www.behance.net/gallery/171743527/Interior-Lights-Website"><img src="pictures/lumiere.png" alt=""></a></li>
+                <li><a href="https://www.behance.net/gallery/159519955/TOASTS-MENU"><img src="pictures/toast.png" alt=""></a></li>
+                <li><a href="https://www.behance.net/gallery/164921303/Pets-Shop-Brand-New"><img src="pictures/pet.png" alt=""></a></li>
+                <li><a href="https://www.behance.net/gallery/166602253/Combo-Mon-an-Han-Quc"><img src="pictures/korean food.png" alt=""></a></li>
+                <li><a href="https://www.behance.net/gallery/159414367/TRIFOLD-TRAVEL-BROCHURE"><img src="pictures/travel brochure.png" alt=""></a></li>
+                <li><a href="https://www.behance.net/gallery/163407605/SOFT-DRINK"><img src="pictures/orange soda.png" alt=""></a></li>
+                <li><a href="https://www.behance.net/gallery/164926597/Tinh-du-bui-Cocoon"><img src="pictures/cocoon.png" alt=""></a></li>
+                <li><a href="https://www.behance.net/gallery/159519021/BEER-POSTER"><img src="pictures/beer.png" alt=""></a></li>
+            </ul>
+            <div class="work-horizontal-holder">
+                <div class="work-horizontal   swiper">
+                    <ul class="reset-list   swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="https://www.behance.net/gallery/165204483/SENKA-Aqua-Bright-Serum-in-CC"><img src="pictures/senka.png" alt=""></a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.behance.net/gallery/167505433/Sashimi-Poster"><img src="pictures/sashimi.png" alt=""></a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.behance.net/gallery/164079205/Chocolate-Chips"><img src="pictures/choco snack.png" alt=""></a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.behance.net/gallery/164848057/Caramel-Popcorn-Milk-Shake"><img src="pictures/popcorn.png" alt=""></a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.behance.net/gallery/159570043/DRINK-POSTER"><img src="pictures/monster.png" alt=""></a>
+                        </li>
+                    </ul>        
+                </div>
+            </div>
+            <p style="padding-top: 20px">Motion Design</p>
+            <ul class="reset-list   motion">
+                <li><a href="https://www.behance.net/gallery/170104079/LocknLock-short-video">
+                        <img src="pictures/locknlock.jpg" alt="">
+                </a></li>
+                <li><a href="https://www.behance.net/gallery/170116015/Short-Video-for-Beauty">
+                    <img src="pictures/glossier.jpg" alt="">
+                </a></li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p class="tks">Thanks for stopping by!</p>
+        <section>
+            <p>© 2023 by Quan Thuy Duyen.</p>
+            <div class="contact">
+                <a href="mailto:quanthuyduyen@gmail.com">Email</a>
+                <a href="https://www.behance.net/quanthuyduyen">Behance</a>
+                <a href="https://www.linkedin.com/in/quanthuyduyen/">Linkedin</a>
+            </div>
+        </section>
+    </footer>
+    <script>
+        const k1swiper = new Swiper('.work-horizontal', {
+            slidesPerView: 3.5,
+            autoplay: {
+                delay: 3000,
+            },
+
+        });
+    </script>
+</body>
+</html>
